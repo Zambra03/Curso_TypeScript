@@ -1,0 +1,13 @@
+{
+  "name": "curso_typescript",
+  "version": "1.0.0",
+  "description": "En este espacio se espera generar y editar archivos con lo aprendido en el curso de TypeScript (Codigo Facilito)",
+  "main": "index.js",
+  "scripts": {
+    "start:types": "tsc basics/types.ts --outdir dist/ && node dist/types.js ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
